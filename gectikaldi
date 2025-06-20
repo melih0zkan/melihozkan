@@ -1,0 +1,9 @@
+note=int(input("note:"))
+if note>100 or note<0:
+  print("tekrar notu gir")
+elif note>=50:
+  print("geçti")
+else:
+  print("kaldi")
+print("end")
+

@@ -1,0 +1,6 @@
+yas=int(input("yas"))
+note=int(input("note"))
+if yas<=50 and yas>=20 and note>=80:
+  print("GİREBİLİR")
+else:
+    print("GİREMEZ")

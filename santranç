@@ -1,0 +1,8 @@
+x=int(input("X KORDİNATI GİR"))
+y=int(input("Y KORDİNATI GİR"))
+z=x+y
+if z%2==0:
+  print("çift")
+else:
+  print("Tek")
+

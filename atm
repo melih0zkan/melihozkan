@@ -1,0 +1,34 @@
+konto=1000
+passw=123
+count=0
+while True:
+  pin= int(input("ŞİFREN"))
+  if pin==passw:
+    frage=int(input("Para Yatırma (1) Para Çekme (2)"))
+    if frage==1:
+      geld=int(input("Ne kadar yatırmak istersiniz: "))
+      konto+=geld
+      print("yeni hesap bakiyesi: "+str(konto))
+      break
+    elif frage==2:
+      geld=int(input("Ne kadar çekmek istiyorsunuz: "))
+      if geld<=konto:
+        konto-=geld
+        print("Ne kadar çekmek istiyorsunuz: "+str(konto))
+        break
+      else:
+        print("Hesap bakiyesi yetersiz")
+        print("Cari hesap bakiyesi: " + str(konto))
+        continue
+    else:
+      print("Geçersiz işlem")
+  else:
+    print("yanlış PIN")
+    count+=1
+    if count<3:
+      continue
+    else:
+      print("Kart gitti!")
+      break
+  
+print("Kartınızı çıkarın")

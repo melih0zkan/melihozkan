@@ -1,0 +1,8 @@
+programmiererfahrung=int(input("programmiererfahrung"))
+abschlussnote=int(input("abschlussnote"))
+if abschlussnote>90 or abschlussnote>=70 and programmiererfahrung>4:
+  print("GİREBİLİR")
+elif abschlussnote>=70 or programmiererfahrung==4:
+  print("Mülakata davet et")
+else:
+    print("GİREMEZ")

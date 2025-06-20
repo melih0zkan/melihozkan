@@ -1,0 +1,15 @@
+import turtle
+
+ekran = turtle.Screen()
+ekran.bgcolor("black")  
+
+kalem = turtle.Turtle()
+kalem.color("white")     
+kalem.pensize(5)       
+
+kalem.penup()
+kalem.goto(0, -100)     
+kalem.pendown()
+kalem.circle(100)      
+
+turtle.done()

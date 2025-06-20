@@ -1,0 +1,5 @@
+sayi=int(input("sayı: "))
+if sayi%2==0:
+  print("çift")
+else: 
+  print("tek")

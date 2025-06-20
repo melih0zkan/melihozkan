@@ -1,0 +1,8 @@
+ogrenci=int(input("TAM SAYI GIR: "))
+elma=int(input("ELMA SAYISINI GIR: "))
+kalan=ogrenci%elma
+kisibasi=ogrenci/elma
+print("her öğrenciye "+ str(kisibasi))
+print("öğretmene "+ str(kalan) + " ELMA")
+
+

@@ -1,0 +1,14 @@
+p=24.95
+rabatt=40/100
+e=p*rabatt
+v1=3
+v2=0,75
+
+g=p-e
+print(g)
+h=60*g
+print(h)
+d=3+(59*0.75)
+print(d)
+y=h+d
+print(y)

@@ -1,0 +1,17 @@
+passwort=123
+eingabe=0
+counter=0
+while eingabe!=passwort:
+  if counter>=3:
+    print("zu viele versuche")
+    break
+  
+  eingabe=int(input("Passwort: "))
+  counter+=1
+  
+if eingabe!=passwort:
+  print("falches Passwort")
+    
+else:
+  print("Guten Tag")
+  print("Programm beendet")

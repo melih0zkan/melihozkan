@@ -1,0 +1,8 @@
+sayi=23
+tahmin=0
+while tahmin!=sayi and tahmin!=-1:
+  tahmin=int(input("TAHMİN ET: "))
+if tahmin==-1:
+    print("OYUN BİTTİ!")
+elif tahmin>-1:
+  print("DOĞRU TAHMİN!")
